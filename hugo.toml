@@ -1,0 +1,44 @@
+baseURL = "https://dayio.dev/"
+languageCode = "en-us"
+title = "Dayio.dev"
+theme = "archie"
+copyright = "© Dayio"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+  pagerSize = 5 # articles per page
+
+[params]
+	mode="toggle"
+	useCDN=false
+	subtitle = "Exploring tech from the cloud down to the hardware level"
+	customcss = ["css/main.css"]
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/Bouhnosaure"
+
+[[menu.main]]
+name = "~/"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
