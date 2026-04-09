@@ -45,7 +45,7 @@ The architecture is simple: a Bun server handling SvelteKit, spawning a WS serve
 
 If you want to tinker with Swarm yourself, Docker-in-Docker is incredibly useful for local testing. Here are the compose files and scripts I use to spin up local clusters:
 
-- [Single node cluster setup](https://gist.github.com/Bouhnosaure/463b354d00f02b4c8bc585cd6dbb2374)
-- [Multi node cluster setup](https://gist.github.com/Bouhnosaure/5c1ac3e2807f7556f5623f50306d69b7)
+- [Single node cluster setup](https://gist.github.com/dayio/463b354d00f02b4c8bc585cd6dbb2374)
+- [Multi node cluster setup](https://gist.github.com/dayio/5c1ac3e2807f7556f5623f50306d69b7)
 
 Kubernetes has its place, but for the vast majority of us building and shipping products, Swarm is the pragmatic, stress-free choice.
