@@ -16,6 +16,8 @@ pagerSize = 5 # articles per page
 mode = "toggle"
 useCDN = false
 subtitle = "Exploring tech from the cloud down to the hardware level"
+mathjax = true
+katex = true
 
 [[params.social]]
 name = "GitHub"
