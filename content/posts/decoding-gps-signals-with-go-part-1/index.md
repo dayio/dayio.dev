@@ -177,7 +177,7 @@ It can listen to almost anything from 500 kHz to 1.766 GHz and since GPS signals
 
 In theory, I could locate myself from scratch using nothing but this usb stick and some code.
 
-### The Plan: 
+### The Plan
 - Learn the GPS math (done!)
 - Mock a GPS signal (because I’m lazy and debugging in the cold outside is overrated).
 - Write the software to pinpoint my location. Easy, right?
