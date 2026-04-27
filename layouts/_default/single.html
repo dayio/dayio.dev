@@ -2,6 +2,7 @@
 <main>
     <article>
         <div class="post-container">
+
             <!-- Main Content -->
             <div class="post-content">
                 <div class="title">
@@ -39,8 +40,10 @@
                 {{ .TableOfContents }}
             </div>
             {{ end }}
+
         </div>
 
+        <!-- Giscus -->
         {{- partial "giscus.html" . -}}
 
     </article>
