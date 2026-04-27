@@ -12,7 +12,7 @@ For me, engineering is about connecting the dots across the entire stack. I’m 
 
 * **Software Engineering:** I’ve shipped production code with Laravel, Go, Python,.NET and Java. I value pragmatism and time-to-market. My background in R&D and digital archiving gave me a deep understanding of search indexing and relevancy. I build robust backends where performance and efficiency are the absolute priorities.
 * **Infrastructure & Ops:** I focus on scalable and predictable deployments. While I am fluent with Kubernetes (ArgoCD, FluxCD), I’m a strong advocate for Docker Swarm, it’s the pragmatic choice for 95% of real-world use cases. I manage full hybrid environments: servers, databases, message queues, cache layers, proxies, storage, and more.
-* **Systems & Hardware:** If it’s a "black box," I’ll open it. I enjoy reverse-engineering hardware and closed systems, dumping firmwares, sniffing UART/JTAG buses, or analyzing signals with an RTL-SDR. I don't just use Linux; I understand its internals.
+* **Systems & Hardware:** If it’s a "black box", I’ll open it. I enjoy reverse-engineering hardware and closed systems, dumping firmwares, sniffing UART/JTAG buses, or analyzing signals with an RTL-SDR. I don't just use Linux; I understand its internals.
 
 ### What You'll Find Here
 
