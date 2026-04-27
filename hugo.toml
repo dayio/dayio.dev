@@ -12,6 +12,10 @@ pygmentscodefencesguesssyntax = true
 [pagination]
 pagerSize = 5 # articles per page
 
+[services]
+[services.disqus]
+shortname = 'dayio'
+
 [params]
 mode = "toggle"
 useCDN = false
