@@ -123,6 +123,8 @@ By adding the **Q** channel offset by exactly 90 degrees, one of the two eyes wi
 
 It tracks the signal as a continuous spiral, instantly spots the exact microsecond the data flips and allows to read the Doppler shift to know if the satellite is moving towards you or away from you.
 
+Please take a look at [this video](https://youtu.be/Ev3lZClnLhQ), it explains really well the concept and the math behind this.
+
 ## Finding the Needle in the Haystack
 
 Even with our stereo vision **I/Q** and the Doppler windows open, there is an issue. Our satellite has almost less than the power of a light bulb, around 50 Watts. It's not a lot, now imagine this light bulb 20 000 Km away, you get it ?... Yea it's peanuts. Now this signal must traverse vacuum, ionosphere and clouds and from what I've read it's around -160 dBW ($10^{-16}$ Watts)... Nothing.
