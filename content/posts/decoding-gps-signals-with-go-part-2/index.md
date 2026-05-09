@@ -121,7 +121,7 @@ For us this parenthesis is closed, and now we can generate our "GPS radio wave f
 ## Creating virtual satellites 
 
 First in order to use `gps-sdr-sim` we have to use some parameters, like : 
-- `-e brdc1180.26n` ou RINEX file
+- `-e brdc1180.26n` our RINEX file
 - `-l 44.845701, -0.572246` a location so the soft can create the moving of the satellites and the Doppler effet and all of that
 - `-s 2000000` is the sampling frequency, I try to mimic the `RTL2832U` of my RTL-SDR that can output data up to 2.4 MSPS, so setting it to 2.0 MSPS give me safe range to work with and also because remember the PRN code is transmitted at **1.023 MHz** and I've read that according to the **Shannon-Nyquist** theorem, in order to digitalise a signal, we must sample it at the double of it's frequency, in our case 2.046 MHz.
 - `-b 8 ` to set the bit depth, by default it's at 16 bits, and is perfect, but with an SDR we won't have this much quality IMO
