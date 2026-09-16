@@ -1,8 +1,9 @@
 +++
 date = '2026-09-16T09:14:00+02:00'
 draft = false
-tags = ['linux', 'hardware', 'windows', 'dualboot']
 title = 'Fixing Dual-Boot Issues with Bluetooth Devices'
+description = "How to share Bluetooth link keys between Linux and Windows in a dual-boot setup to avoid re-pairing your devices on every reboot."
+tags = ['linux', 'hardware', 'windows', 'dualboot']
 +++
 
 On my main workstation, I primarily use Fedora, but I also boot into Windows for gaming or specialized software that does not run natively on Unix-like systems.
