@@ -101,7 +101,7 @@ For example, with adapter MAC `80:13:16:1C:99:99` and device MAC `80:99:E7:E0:04
 sudo nano /var/lib/bluetooth/80:13:16:1C:99:99/80:99:E7:E0:04:99/info
 ```
 
-Locate the `[LinkKey]` section and update the `Key` value with your 32-character uppercase string:
+Locate the `LinkKey` section and update the `Key` value with your 32-character uppercase string:
 
 ```ini
 [General]
