@@ -50,7 +50,7 @@ If we apply the same principles to GPS, instead of X and Y in centimeters, we us
 ![3d-printer-analogy.png](./attachments/3d-printer-analogy.png)
 
 ### The Need for Extreme Precision
-With nanoseconds, you have to make sure satellites are all in sync with each other and have an internal clock that is freaking precise. That’s why they use **atomic clocks** and not quartz-based oscillators quartz can drift
+With nanoseconds, you have to make sure satellites are all in sync with each other and have an internal clock that is freaking precise. That’s why they use **atomic clocks** and not quartz-based oscillators that can drift
 
 Imagine a drift of just one millisecond: instead of locating you in Spain, you are now in the middle of France, because an error of only **10 nanoseconds** leads to a positioning error of **3 meters** as described in [this post about GPS and Relativity](https://www.gpsworld.com/inside-the-box-gps-and-relativity)
 
