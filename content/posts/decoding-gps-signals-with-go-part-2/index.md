@@ -265,7 +265,7 @@ sample 5 -> Raw: [  -7, -13], Complex: (-7-13i)
 
 Now that we have a usable, high-precision signal, we need to check it against all the satellites to find out which one is actually talking to us. 
 
-To do this, we need to use the famous **Gold Codes**. You can find them in the official GPS specifications under the "Code Phase Assignments" section of the [**IS-GPS-200N** document](https://www.navcen.uscg.gov/sites/default/files/pdf/gps/IS-GPS-200N.pdf). This table maps each PRN (satellite number) to a specific "C/A Code Phase Selection" (a pair of integers).
+To do this, we need to use the famous **Gold Codes**. You can find them in the official GPS specifications under the "Code Phase Assignments" section of the [**IS-GPS-200N** document](https://archive.gps.gov/technical/icwg/IS-GPS-200N.pdf). This table maps each PRN (satellite number) to a specific "C/A Code Phase Selection" (a pair of integers).
 
 ![C/A Codes](./attachments/ca-codes.png)
 
