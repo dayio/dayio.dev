@@ -166,7 +166,7 @@ So, in terms of code, what do we need to do to read the raw I/Q waves? First, we
 
 Since our SDR samples at 2.0 MSPS (2,000,000 samples per second), exactly 2,000 samples are generated every single millisecond. Because each sample contains two values (In-Phase and Quadrature), we need to store $2000 \times 2 = 4000$ distinct values to read exactly one millisecond of the signal.
 
-In Go, our buffer initialization looks like this: `make([]int8, 4000)`. We use 8-bit signed integers (`int8`) because our simulated signal (and our actual SDR hardware) outputs data in values ranging strictly from -128 to +127. Each value takes exactly one byte of memory.
+In Go, our buffer initialization looks like this: `make(\[\]int8, 4000)`. We use 8-bit signed integers (`int8`) because our simulated signal (and our actual SDR hardware) outputs data in values ranging strictly from -128 to +127. Each value takes exactly one byte of memory.
 
 As we ingest those 4,000 bytes, the structure is perfectly interleaved. The first byte is the In-Phase (I) value, the second is the Quadrature (Q) value, and it repeats sequentially: I, Q, I, Q, I, Q...
 #### Why does the wave spin? (RHCP)
