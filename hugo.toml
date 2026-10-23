@@ -31,7 +31,7 @@ shortname = 'dayio'
 mode = "toggle"
 useCDN = true
 subtitle = "Exploring tech from the cloud down to the hardware level"
-mathjax = true
+mathjax = false
 katex = true
 
 [sitemap]
